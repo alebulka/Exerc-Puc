@@ -1,19 +1,19 @@
-''' # Elabore um programa que solicite ao usuário cinco números, armazene-os em uma lista e exiba como resultado os dados obtidos.
-nums = [0, 0, 0, 0, 0]
+# Elabore um programa que solicite ao usuário cinco números, armazene-os em uma lista e exiba como resultado os dados obtidos.
+""" nums = [0, 0, 0, 0, 0]
 for i in range(5):
     num = int(input("Digite um número: "))
     nums[i] = num
-print(nums)
+print(nums) """
 
 # usando método append
-nums = [] # quantidade de valores indeterminados
+""" nums = [] # quantidade de valores indeterminados
 for i in range(5):
     num = int(input("Digite um número: "))
     nums.append(num)
-print(nums) '''
+print(nums) """
 
-""" # Elabore um programa que solicite ao usuário cinco números e exiba duas listas separadas: uma contendo somente números pares e outra contendo somente números ímpares. 
-pares = []
+# Elabore um programa que solicite ao usuário cinco números e exiba duas listas separadas: uma contendo somente números pares e outra contendo somente números ímpares. 
+""" pares = []
 impares = []
 for i in range(5):
     num = int(input("Digite um número: "))
@@ -23,8 +23,8 @@ for i in range(5):
         impares.append(num)
 print("Números pares:", pares, "- Números ímpares:", impares) """
 
-""" # Dada a lista de dados nums = [1, 4, 23, 11, 8], corra a lista usando um objeto range e imprima cada elemento em uma linha.
-nums = [1, 4, 23, 11, 8]
+# Dada a lista de dados nums = [1, 4, 23, 11, 8], corra a lista usando um objeto range e imprima cada elemento em uma linha.
+""" nums = [1, 4, 23, 11, 8]
 for i in range(len(nums)):
     print(nums[i]) """
 
@@ -55,7 +55,7 @@ for i in range(3):
 print(coordenadas) """
 
 # métodos
-nums = [17, 33, 8, 11, 8, 15, 9]
+# nums = [17, 33, 8, 11, 8, 15, 9]
 # append() -> Adiciona um elemento ao fim da lista.
 """ nums.append(10)
 print(nums) """
