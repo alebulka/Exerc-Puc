@@ -7,8 +7,8 @@ def exibir_menu_principal():
     print('------ MENU PRINCIPAL ------\n')
     print('(1) Gerenciar estudantes\n(2) Gerenciar professores\n(3) Gerenciar disciplinas\n(4) Gerenciar turmas\n(5) Gerenciar matrículas\n(0) Sair\n')
 
-def exibir_menu_estudantes():
-    print('Você escolheu a opção "Gerenciar estudantes" \n \n\n ------ Menu de operações ------\n')
+def exibir_menu_secundario():
+    print(f'Você escolheu a opção "Gerenciar {option}" \n \n\n ------ Menu de operações ------\n')
     print('(1) Incluir\n(2) Listar\n(3) Editar\n(4) Excluir\n(5) Salvar em arquivo\n(6) Recuperar de arquivo\n(0) Sair\n')
 
 def incluir_estudante(alunosLista):
